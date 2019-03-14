@@ -1,0 +1,70 @@
+Ing Alexander Yela ayela@javerianacali.edu.co
+
+implementacion de bases de datos 
+
+base datos oltp (Sistema de informacion), y cuando tiene muchos registros se vuelven lentas
+Bodegas de datos, como de historias para aplicar machine learning y analisis de datos viejos 
+
+consistencia en la base de datos: 
+la base de datos debe bloquearse para garantizar que la informacion sea consistente 
+bloqueos compartidos ---> Bloqueos exclusivos 
+Saber el contexto --> si se esta haciendo una aplicacion de medicina debo saber de medicina 
+etl extracion, transformation, carga 
+
+DRP plan de recuperacion de desastres, en distintos paises que no seas tan suceptibles a cambios 
+
+operaciones transaccionales con geetor de base de datos cde codumentos como mongo _
+_______________________________________
+7 de febrero
+________________________________________-
+Generaciones de bases de datos:
+-   Primera Generacion : 
+ SGDB Modelos Jerarquicos y en red 
+        parte Conceptual : SQL = ansi 92 y ansi 99
+        Parte Logica : La creacion de la base de datos  (El lenguaje SQL y asi todos pueden acceder a los datos que estan ahi)
+        Parte Fisica : como soy capaz de acceder a la base 
+-   Segunda Generacion : 
+ > BD paralelas 
+ > BD en tiempo real 
+ > BD en memoria principal 
+ > BD GRID
+
+- Tercera generacion : 
+
+- Cuarta generacion:
+    . bd activas , deductivas , difudsas etc 
+
+MODELO RELACIONAL: 
+- independencia fisica y logica 
+- Felxibilidad 
+- Uniformidad 
+- Secillez
+
+_______Tipos de datos 
+Los char se usan para datos que uso mucho o por lo que voy a filtrar , por que asi las busquedas son mas rapidas , cada casilla pesa 1 byte
+los varchar se usan para datos menos usados por los que no se necesita filtrar, cada casilla pesa 1 byte
+
+n char  cada casilla pesa 2 byte
+n varchar cada casilla pesa 2 byte
+
+int = small int pesa 2 bytes, el int normal pesa 4 bytes y el bigint pesa 8 bytes.
+
+timestamp = 8 bytes 
+
+date  = tipo de dato entero, si lo envio primitivamente como AAAAMMDD me acepta el dato y lo inserta
+
+_____Tipos de tablas:
+- persistentes : solo pueden ser borradas por los usuarios 
+        Base . independientes 
+
+        vistas : tablas temporales que solo almecenan la definicion y solo lanzan una sentencia por debajo 
+
+
+select isnull(nombre,'')+ apellido from table (esto me los espacios en NULL )
+
+_____REGLAS inherentes 
+- No pueden haber dos tuplas iguales 
+- el orden de las tuplas no importa (ya que se ordenan los datos por la llave primaria de la tablas ej POR id , por nombre etc )
+
+
+LA CREACION DE INDICES ME MEJORA LOS TIEMPOS DE UPDATES Y BUSQUEDAS 
