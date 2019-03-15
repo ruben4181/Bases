@@ -1,6 +1,6 @@
 Ing Alexander Yela ayela@javerianacali.edu.co
 
-implementacion de bases de datos 
+implementacion de bases de datos
 
 base datos oltp (Sistema de informacion), y cuando tiene muchos registros se vuelven lentas
 Bodegas de datos, como de historias para aplicar machine learning y analisis de datos viejos 
