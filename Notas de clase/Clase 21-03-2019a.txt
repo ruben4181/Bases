@@ -1,0 +1,56 @@
+DB Concurrency
+Transacciones
+
+
+SET TRANSACTION ISOLATION LEVEL READ COMMITED
+begin tran
+select
+*
+from tPrueba with(Rowlock, Xlock) where a>1;
+
+with(Rowlock, Xlock) sirve para bloquear durante la transaccion solamente los registros que han sido utilizados
+
+SET LOCK_TIMEOUT 0   bloquea el sistema en milisegundos
+
+
+
+READ UNCOMMITTED sirve para hacer lecturas sin generar bloqueos
+NOTA: para lo mismo se podria usar  WITH(nolock)
+
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+begin tran
+select
+*
+from tprueba where a= 3
+commit
+
+
+REPORTES PARA TENER EN CUENTA EN EL PROYETO
+la hora mas frecuente de llamadas
+cuantas llamadas
+cual es el cliente, la empresa que le vendio el celular y cuantos minutos ha llamado
+
+
+
+
+Predecir el crecimiento de la base de datos a futuro. Esto puede hacerse con filtros mas especificos
+
+
+Utilidad e implicaciondes de:
+	COMMIT
+	ROLLBACK
+
+
+
+
+PROXIMA CLASE:
+	Sacar el CRUD de lo que hay:
+		CRUD incluye:
+			Excepciones
+			CONSECUTIVOS: generar secuencias, select + 1, etc.
+			INSERTS
+			DELETE
+			UPDATE		
+	Optimizacion
+	Consultas
+	XML
