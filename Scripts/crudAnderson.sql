@@ -66,7 +66,7 @@ IS
 BEGIN
   IF VALIDAR_TARIFA(valor_minuto,valor_mensaje,valor_mb,valor_minuto_extra,valor_mensaje_extra,valor_mb_extra)=TRUE THEN
   BEGIN
-      DELETE FROM cliente WHERE nit_clie = nit;
+      DELETE FROM tarifas WHERE tarifas.id_tarifa = id_tarifa;
       DBMS_OUTPUT.PUT_LINE('TARIFA: Borrada: '|| id_tarifa);
     END;
   ELSE
@@ -76,4 +76,35 @@ BEGIN
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE(' Se presento un error borrando la tarifa ');
 END;
+commit;
+
+/*********************************************CATALOGO******************************/
+/************************************************************************************/
+/*************************************************************************************/
+
+/*******************CREAR***********************/
+create or replace PROCEDURE REGISTRAR_(
+                                   valor_minuto  tarifas.valor_minuto%type,
+                                   valor_mensaje  tarifas.valor_mensaje%type ,
+                                   valor_mb  tarifas.valor_mb%type,
+                                   valor_minuto_extra  tarifas.valor_minuto_extra%type,
+                                   valor_mensaje_extra  tarifas.valor_mensaje_extra%type,
+                                   valor_mb_extra  tarifas.valor_mb_extra%type)
+IS
+BEGIN
+  IF VALIDAR_TARIFA(valor_minuto,valor_mensaje,valor_mb,valor_minuto_extra,valor_mensaje_extra,valor_mb_extra)=FALSE THEN
+  BEGIN
+      INSERT INTO tarifas (id_tarifa,valor_minuto,valor_mensaje,valor_mb,valor_minuto_extra,valor_mensaje_extra,valor_mb_extra)
+      VALUES (ID_TARIFA.nextval,valor_minuto,valor_mensaje,valor_mb,valor_minuto_extra,valor_mensaje_extra,valor_mb_extra);
+      DBMS_OUTPUT.PUT_LINE('Tarifa Insertada : ');
+    END;
+  ELSE
+    DBMS_OUTPUT.PUT_LINE(' La Tarifa  ya existe en la base de datos');
+  END IF;
+  EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE(' Se presento un error insertando la tarifa '||sqlerrm);
+END;
+commit;
+
 
