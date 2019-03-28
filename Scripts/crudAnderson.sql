@@ -107,4 +107,59 @@ BEGIN
 END;
 commit;
 
+/*****************catalogo ************/
+/************************//*********/
+create or replace PROCEDURE insert_catalogo(
+                          nombre_catalogo CATALOGO.nombre_catalogo%TYPE)
+
+AS
+BEGIN
+  INSERT INTO catalogos(id_catalogo, nombre_catalogo)
+  VALUES(ID_CATALOGO.nextval, nombre_catalogo);
+EXCEPTION
+  WHEN OTHERS THEN
+    DBMS_OUTPUT.PUT_LINE('Ocurrio un error al insertar en la tabla catalogo');
+END;
+commit;
+/****************Update********************/
+create or replace PROCEDURE update_catalogo(id_catalogo CATALOGOS.ID_CATALOGO%TYPE,
+                        nombre_catalogo CATALOGOS.NOMBRE_CATALOGO%TYPE) 
+                       AS
+BEGIN
+    IF exists_catalogo(id_catalogo)=TRUE THEN
+            UPDATE CATALOGOS SET CATALOGOS.NOMBRE_CATALOGO=nombre_catalogo;
+        
+    ELSE
+            DBMS_OUTPUT.PUT_LINE('El catalogo no existe');
+    END IF;
+EXCEPTION
+  WHEN OTHERS THEN
+    DBMS_OUTPUT.PUT_LINE('An error ocurred while updating CATALOGOS table');
+END;
+/******************VALIDAR**************************/
+create or replace FUNCTION
+exists_catalogo(id_catalogo catalogos.id_catalogo%TYPE) RETURN BOOLEAN AS
+  tmp VARCHAR(1);
+BEGIN
+  SELECT 'y' INTO tmp FROM catalogos WHERE catalogos.id_catalogo=id_catalogo;
+  RETURN TRUE;
+EXCEPTION
+  WHEN NO_DATA_FOUND THEN
+    RETURN FALSE;
+END;
+/***********************delete**********************/
+create or replace PROCEDURE delete_catalogo(id_catalogo_val CATALOGOS.ID_CATALOGO%TYPE) AS
+BEGIN
+    IF exists_catalogo(id_catalogo_val) THEN
+        DELETE FROM CATALOGOS WHERE CATALOGOS.ID_CATALOGO = id_catalogo_val;
+        
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('El catalogo no existe en la base de datos');
+    END IF;
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('An error ocurred while deleting from Catalogos table');
+END;
+commit;
+
 
