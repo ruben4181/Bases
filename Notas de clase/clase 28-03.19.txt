@@ -1,0 +1,15 @@
+OPTIMIZACION DE LA BASE DE DATOS(POR SI ESTAN LENTAS)
+    Para crear los indices se tiene las reglas:
+    - todo lo que va en un where se le debe crear un indice 
+    - Si existe un join entre dos o mas tablas, kis canois comunes se les debe crear indice
+    -Usar indices de multiples campos cuando sea necesario, usar indices sobre campos sustituidos, en lugar de tener indices con campos compuestos
+    - evitar valores nules en los indices ejemplo: si tiene muchos nulls una col, entonces no es necesario
+    -Atributos en las clausula order_By debe crearsen como indices compuestos(asi se ahorra recursos de la cpu, por que no debe ordenar)
+
+    Desnormalizar Las relaciones (por si no mejora la base de datos en cuanto a rendimiento)
+    Reglas:
+    - Introducir atributos derivados (cuando debo ir muy lejos por algun dato, muchas veces, asi acorto camino)
+    - Combinar relaciones 1:1 ( se deben combinar las tablas en una sola, ejemplo en los IS-A )
+
+create index ix_telefono on tbClientes (TELEFONO)
+WHERE NOMBRE LIKE '%PRODUCTO8765'

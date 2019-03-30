@@ -161,5 +161,26 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('An error ocurred while deleting from Catalogos table');
 END;
 commit;
+/*******************************************************/
+/******************PLANES**********************************/
+/*******************************************************/
+create or replace PROCEDURE insert_plan(
+                          precio_val PLANES.PRECIO%TYPE,
+                          minutos_plan_val PLANES.MINUTOS_PLAN%TYPE,
+                          descripcion_val PLANES.DESCRIPCION%TYPE,
+                          gigas_plan_val PLANES.GIGAS_PLAN%TYPE,
+                          tipos_plan_id_tipo_plan_val PLANES.TIPOS_PLAN_ID_TIPO_PLAN%TYPE,
+                          nombre_plan_val PLANES.NOMBRE_PLAN%TYPE,
+                          sms_plan_val PLANES.SMS_PLAN%TYPE)
 
+AS
+BEGIN
+  INSERT INTO planes(id_plan,precio,minutos_plan,descripcion,gigas_plan,tipos_plan_id_tipo_plan,nombre_plan,sms_plan)
+  VALUES(ID_PLAN.nextval, precio_val,minutos_plan_val,descripcion_val,gigas_plan_val, tipos_plan_id_tipo_plan_val, nombre_plan_val,sms_plan_val);
+EXCEPTION
+  WHEN OTHERS THEN
+    DBMS_OUTPUT.PUT_LINE('Ocurrio un error al insertar en la tabla PLANES');
+END;
+commit;
 
+/**********Inserta catalogo a plan*******************************/
