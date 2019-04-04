@@ -16,3 +16,5 @@ Para el crud:
 resumen: contratos, recargas, llamadas y facturas.
 
 en facturacion: cuando se hace el corte tiene que resetear los datos del plan
+
+consultas de clientes por cedula y nombre, saldo disponible, y otros asi
