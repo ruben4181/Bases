@@ -184,3 +184,21 @@ END;
 commit;
 
 /**********Inserta catalogo a plan*******************************/
+
+
+
+
+
+
+
+
+create or replace FUNCTION exists_contrato_activo(numero_val contratos.numero%TYPE) RETURN BOOLEAN AS
+  tmp VARCHAR(1);
+BEGIN  
+  SELECT 'y' INTO tmp FROM contratos WHERE numero_val = contratos.numero and contratos.estado_contrato=1 and  ROWNUM = '1';
+  RETURN TRUE;
+EXCEPTION
+  WHEN NO_DATA_FOUND THEN
+    DBMS_OUTPUT.PUT_LINE('Ya se encuentra este contrato activo y no lo podemos agregar');
+    RETURN FALSE;
+END;
