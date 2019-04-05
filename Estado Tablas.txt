@@ -1,62 +1,78 @@
-xx es que ya esta hecho , yy es que esta vacio, xx(letra), quien la hizo
+Documentacion
+
+
+Nota:	xx -> Terninado
+		yy -> Sin terminar
+
+
+
 SEQUENCES:
-CATALOGO PLANES xx
-CATALOGOS xx
-CATALOGOS EMPRESAS yy
-CIUDAD xx
-CLIENTES xx
-CONTRATOS yy
-DETALLE FACTURA yy
-EMPRESAS xx
-ESTADOS xx
-FACTURA yy
-LLAMADAS yy
-NUMEROS xx
-PAIS xx
-PLANES xx
-RANGO SALARIOS xx
-TARIFAS xx
-TIPOS PLAN yy
+	''' Secuencias de referencia para PK de las Tablas '''
+	CATALOGO PLANES xx
+	CATALOGOS xx
+	CATALOGOS EMPRESAS xx
+	CIUDAD xx
+	CLIENTES xx
+	CONTRATOS xx
+	DETALLE FACTURA xx
+	EMPRESAS xx
+	ESTADOS xx
+	FACTURA xx
+	LLAMADAS xx
+	NUMEROS xx
+	PAIS xx
+	PLANES xx
+	RANGO SALARIOS xx
+	TARIFAS xx
+	TIPOS PLAN xx
 
 
-INSERTS:
-CATALOGO PLANES yy
-CATALOGOS xx
-CATALOGOS EMPRESAS yy
-CIUDAD xx
-CLIENTES xx
-CONTRATOS xx A R
-DETALLE FACTURA yy
-EMPRESAS xx
-ESTADOS xx
-FACTURA yy
-LLAMADAS yy
-NUMEROS xx
-PAIS xx
-PLANES xx
-RANGO SALARIOS xx
-TARIFAS xx
-TIPOS PLAN yy
+
+PROCEDIMIENTOS:
+	INSERTS:
+		''' Funiones para Insertar Datos a las Tablas '''
+		CATALOGO PLANES yy
+		CATALOGOS xx
+		CATALOGOS EMPRESAS yy
+		CIUDAD xx
+		CLIENTES xx
+		CONTRATOS xx A R O
+		DETALLE FACTURA yy
+		EMPRESAS xx
+		ESTADOS xx
+		FACTURA yy
+		LLAMADAS yy
+		NUMEROS xx
+		PAIS xx
+		PLANES xx
+		RANGO SALARIOS xx
+		TARIFAS xx
+		TIPOS PLAN yy
 
 
-EXISTS
-CATALOGO PLANES
-CATALOGOS xx
-CATALOGOS EMPRESAS
-CIUDAD xx
-CLIENTES xx
-CONTRATOS xx 
-DETALLE FACTURA
-EMPRESAS xx
-ESTADOS xx
-FACTURA
-LLAMADAS
-NUMEROS xx
-PAIS xx
-PLANES xx
-RANGO SALARIOS
-TARIFAS xx
-TIPOS PLAN
+
+FUNCIONES:
+	EXISTS:
+		''' Retornan Verdadero si el Elemento ya Existe '''
+		EXISTS_CATALOGO_PLANES yy
+		EXISTS_CATALOGO(id_catalogo catalogos.id_catalogo%TYPE) xx
+		EXISTS_CATALOGO_EMPRESA yy
+		EXISTS_CIUDAD(id_ciudad_val ciudad.id_ciudad%TYPE) xx
+		EXISTS_CLIENTE(documento_val clientes.documento%TYPE) xx
+		EXISTS_EXISTS_CONTRATO(id_contrato contratos.id_contrato%TYPE) xx O
+		EXISTS_EXISTS_DETALLE_FACTURA yy
+		EXISTS_EXISTS_CONTRATO_ACTIVO(numero_val contratos.numero%TYPE) xx A
+		EXISTS_EMPRESA(id_empresa_val empresas.id_empresa%TYPE) xx
+		EXISTS_ESTADO(id_estado_val estados.id_estado%TYPE) xx
+		EXISTS_FACTURA yy
+		EXISTS_LLAMADA yy
+		EXISTS_NUMERO(numero_val numeros.numero%TYPE) xx
+		EXISTS_PAIS(id_pais_val pais.id_pais%TYPE) xx
+		EXISTS_PLAN(id_plan_val planes.id_plan%TYPE) xx
+		EXISTS_RANGO_SALARIOS yy
+		EXISTS_TIPOS_PLAN yy
+		EXISTS_TARIFAS(
+VALOR_MINUTO tarifas.VALOR_MINUTO%type, VALOR_MENSAJE tarifas.VALOR_MENSAJE%type, VALOR_MB tarifas.VALOR_MB%type, VALOR_MINUTO_EXTRA tarifas.VALOR_MINUTO_EXTRA%type, VALOR_MENSAJE_EXTRA tarifas.VALOR_MENSAJE_EXTRA%type, VALOR_MB_EXTRA tarifas.VALOR_MB_EXTRA%type) xx O
 
 
 
