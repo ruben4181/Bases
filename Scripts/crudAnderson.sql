@@ -202,3 +202,16 @@ EXCEPTION
     DBMS_OUTPUT.PUT_LINE('Ya se encuentra este contrato activo y no lo podemos agregar');
     RETURN FALSE;
 END;
+
+CREATE OR REPLACE PROCEDURE finalziar_contrato(numero_val CONTRATOS.NUMERO%TYPE) AS
+BEGIN
+    IF exists_numero(numero_val) = true then
+        UPDATE contratos set estado_contrato = '0' where numero= numero_val and estado_contrato = '1';
+        commit;
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('No se encontro el numero');
+    END IF;
+    EXCEPTION when others then 
+        DBMS_OUTPUT.PUT_LINE('Ups, ocurrio un error al dar de baja al contrato');
+        
+END;
