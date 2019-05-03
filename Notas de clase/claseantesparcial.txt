@@ -1,0 +1,39 @@
+Data wear house 
+- Los datos son no volatiles osea que son duraderos
+- De oltp se para la informacio  a los DWH por que alli en los ltp es lenta la informacion cuando ya hay mucha 
+
+flujo de datos :
+
+extraccion de dats -> gestion del DWH -> gestion de las consultas 
+
+PROBLEMAS : 
+inegracion de herramientas 
+extraccion 
+escalabilidad 
+diseño  de la base datos
+problemas con los dominios
+
+Extraccion de datos: 
+
+eficiencias al acceder a los datos
+
+ETL'S  despues la inegracion en integration services y despues se le aplica el dataminning al DWH
+
+Gestor del data warehouse : 
+
+muchas tablas 
+grandes volumenes de datos
+
+SE PUEDEN PARTICIONAR LAS TABLAS, como por ejemplo partirla por fechas o por algun tipo de dato
+
+#################################DIAGRAMAS EN ESTRELLA ######################################################
+los modelos en estrella tienen dimensiones y hechos.
+las dimensiones son todas las formas de agrupamiento que quiero genenrar
+los hechos son las tablas con los detalles (una tabla de ventas es una tabla de hechos)
+
+Modelamiento:
+Esquemas en estrella-
+-esquemas en copo de nieve 
+
+Las bodegas de datos  NO TIENEN NORMALIZACION DE TABLAS 
+TAMBIEN PUEDEN HABER CAMPOS DE TABLAS CALCULADOS
