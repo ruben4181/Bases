@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="OTOYA_LAVERDE_VARGAS" directorySegmentName="seg_0" id="CCE98944-615B-A42E-BE5F-03714F3DE6D8">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:16 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</SchemaObject>

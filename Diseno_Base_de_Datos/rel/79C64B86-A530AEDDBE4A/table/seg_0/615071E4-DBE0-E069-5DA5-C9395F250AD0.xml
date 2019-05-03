@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="615071E4-DBE0-E069-5DA5-C9395F250AD0" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="NUMEROS">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>NUMEROS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NUMERO" id="652ADA05-F1BB-EAB7-8730-11BC164BB692">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>NUMEROS</sourceObjSchema>
+<sourceObjName>ID_NUMERO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="B5599027-49EE-9FF3-F743-4D16DEAE0884">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>NUMEROS</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALDO" id="92CFAED0-B54D-3019-4CE9-986F5C39D5B6">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>NUMEROS</sourceObjSchema>
+<sourceObjName>SALDO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="A5E47AE2-4172-A19F-077F-678B1D3BE429">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>NUMEROS</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C3DE913-5F7A-9BBD-0D39-74D67C59DEDF" referredColumn="391749B3-7C31-3E33-3B40-8C7644F243AC"/>
+</associations>
+</Column>
+<Column name="ID_PLAN" id="89B11153-8269-066C-D64B-A93B191CDA10">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>NUMEROS</sourceObjSchema>
+<sourceObjName>ID_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77E935BC-D693-EA4B-0D15-11EFE128B090" referredColumn="261C0244-A16C-0EF4-D339-8F2E583D4932"/>
+</associations>
+</Column>
+<Column name="ESPOSTPAGO" id="66DC8DC3-570B-D21D-B61B-35336CE4EEC2">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>NUMEROS</sourceObjSchema>
+<sourceObjName>ESPOSTPAGO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6FCFAE9-EBCB-9495-AE74-0DFF16789E3F" name="NUMEROS_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>NUMEROS_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="652ADA05-F1BB-EAB7-8730-11BC164BB692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD5DCC04-0601-A3F5-894D-9020DCBBA1F8" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="NUMEROS_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>NUMEROS_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="652ADA05-F1BB-EAB7-8730-11BC164BB692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="123F1938-8BF6-5855-ABD5-5043C4F5F239" name="NUMEROS_FK1">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E47AE2-4172-A19F-077F-678B1D3BE429"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6BD8CCF-7998-2943-33B9-9131E1887FF3" name="NUMEROS_FK2">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89B11153-8269-066C-D64B-A93B191CDA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00DF9859-04F5-BC8A-97A9-D431882436A9" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="PAIS">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>PAIS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAIS" id="D51C7676-C44D-7964-4646-F5DD022AF73D">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PAIS</sourceObjSchema>
+<sourceObjName>ID_PAIS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAIS" id="8FC4558D-2756-0FE0-F711-E8FF5B149E99">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PAIS</sourceObjSchema>
+<sourceObjName>NOMBRE_PAIS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85B1BA6F-C05E-F44F-5B00-8092908A8D6B" name="PAIS_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>PAIS_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D51C7676-C44D-7964-4646-F5DD022AF73D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30CB8C30-EE33-8C63-80E6-92711282A8C3" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="PAIS_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>PAIS_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D51C7676-C44D-7964-4646-F5DD022AF73D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

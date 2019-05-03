@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PLANES" directorySegmentName="seg_0" id="AB44C589-320D-91BD-C0ED-3DB519B07288">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EDE2F166-9C92-1AE8-0B24-5FFC5CF4A96E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPCION" id="04229840-D6B9-4E05-441D-87E4E6739444">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SMS_PLAN" id="207ECC38-8340-485F-7E3E-39D039D6B576">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIGAS_PLAN" id="2286158B-85C3-A7A8-BBDF-7C5E43C0BC02">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PLAN" id="261C0244-A16C-0EF4-D339-8F2E583D4932">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TARIFA" id="7EE6B89D-75AB-5960-19C0-9B4680D4281B">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_PLAN" id="BA575FCD-71BB-0C8A-237C-F4B1F5959D83">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIO" id="BBC864C3-3662-CCEB-6F54-0DBC3D1F6A94">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESCONTROL" id="C134D3E0-0A4C-5807-2BB4-24B423A97293">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MINUTOS_PLAN" id="F95FA199-49A8-C609-5F41-B2562FC5BC4A">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PLANES_PK" id="2B49E4A8-B587-CD82-07DA-FCA7D5736912">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PLANES_FK1" id="00BBC0FE-0145-975A-A50D-9B8B6908296B">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLANES_PK" id="C5397B8A-1D7C-1251-31ED-23EBB0A6AD07">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<existingIndex>2B49E4A8-B587-CD82-07DA-FCA7D5736912</existingIndex>
+<indexSegment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

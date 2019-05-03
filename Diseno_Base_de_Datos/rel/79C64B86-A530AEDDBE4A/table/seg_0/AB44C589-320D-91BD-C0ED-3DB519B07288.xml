@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB44C589-320D-91BD-C0ED-3DB519B07288" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="PLANES">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>PLANES</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLAN" id="261C0244-A16C-0EF4-D339-8F2E583D4932">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>ID_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="BBC864C3-3662-CCEB-6F54-0DBC3D1F6A94">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTOS_PLAN" id="F95FA199-49A8-C609-5F41-B2562FC5BC4A">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>MINUTOS_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="04229840-D6B9-4E05-441D-87E4E6739444">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIGAS_PLAN" id="2286158B-85C3-A7A8-BBDF-7C5E43C0BC02">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>GIGAS_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PLAN" id="BA575FCD-71BB-0C8A-237C-F4B1F5959D83">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>NOMBRE_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SMS_PLAN" id="207ECC38-8340-485F-7E3E-39D039D6B576">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>SMS_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TARIFA" id="7EE6B89D-75AB-5960-19C0-9B4680D4281B">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>ID_TARIFA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59D64640-C9C4-CDD9-91A7-30D42BDEC378" referredColumn="181BE882-C386-2FA0-4896-46C242E7D03E"/>
+</associations>
+</Column>
+<Column name="ESCONTROL" id="C134D3E0-0A4C-5807-2BB4-24B423A97293">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>ESCONTROL</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5397B8A-1D7C-1251-31ED-23EBB0A6AD07" name="PLANES_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>PLANES_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="261C0244-A16C-0EF4-D339-8F2E583D4932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B49E4A8-B587-CD82-07DA-FCA7D5736912" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="PLANES_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>PLANES_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="261C0244-A16C-0EF4-D339-8F2E583D4932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00BBC0FE-0145-975A-A50D-9B8B6908296B" name="PLANES_FK1">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EE6B89D-75AB-5960-19C0-9B4680D4281B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

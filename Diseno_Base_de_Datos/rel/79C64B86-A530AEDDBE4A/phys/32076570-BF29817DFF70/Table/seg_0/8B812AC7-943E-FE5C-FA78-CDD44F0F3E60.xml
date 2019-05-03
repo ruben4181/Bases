@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RANGO_SALARIOS" directorySegmentName="seg_0" id="8B812AC7-943E-FE5C-FA78-CDD44F0F3E60">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EDE2F166-9C92-1AE8-0B24-5FFC5CF4A96E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INICIO_RANGO" id="06028EDE-82AD-43D5-5F0F-19978FF87CCF">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RANGO" id="20B68E7B-38C7-48E5-B087-ACED2E9A72C0">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIN_RANGO" id="2304DF35-B8DB-5755-4C29-D3D3EA93FDE0">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RANGO_SALARIOS_PK" id="A26C07B9-F7D4-9598-2427-51C40EC42179">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RANGO_SALARIOS_PK" id="8C4E9FBB-65A9-F4F0-0508-6E707A8E534C">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<existingIndex>A26C07B9-F7D4-9598-2427-51C40EC42179</existingIndex>
+<indexSegment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

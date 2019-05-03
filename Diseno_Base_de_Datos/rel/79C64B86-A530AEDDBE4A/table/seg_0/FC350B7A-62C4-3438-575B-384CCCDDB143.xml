@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC350B7A-62C4-3438-575B-384CCCDDB143" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="CATALOGOS_EMPRESAS">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>CATALOGOS_EMPRESAS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CATALOGO_EMPRESA" id="7C1ED25E-137A-5315-E458-BFEC8E2C0A03">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>CATALOGOS_EMPRESAS</sourceObjSchema>
+<sourceObjName>ID_CATALOGO_EMPRESA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EMPRESA" id="E1746AC4-0653-FEC3-9706-AEE25649EAEC">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>CATALOGOS_EMPRESAS</sourceObjSchema>
+<sourceObjName>ID_EMPRESA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDFFCD9C-8035-BA9A-B9CF-09F09DF36B8B" referredColumn="707490B9-6371-73DC-7431-799AC06D8215"/>
+</associations>
+</Column>
+<Column name="ID_CATALOGO" id="1AC41D6D-2791-52AA-F190-E85457855158">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>CATALOGOS_EMPRESAS</sourceObjSchema>
+<sourceObjName>ID_CATALOGO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73F79CD0-0EA6-06A5-F824-5DD81E3ED6FF" referredColumn="D6670686-2AF7-60AB-EC7D-7F8519B0A381"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52F645AB-5DF8-2534-B3E7-AA812816D583" name="CATALOGOS_EMPRESAS_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>CATALOGOS_EMPRESAS_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C1ED25E-137A-5315-E458-BFEC8E2C0A03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15CE4A3D-66EE-51D7-1EB7-3254E6CA702A" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="CATALOGOS_EMPRESAS_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>CATALOGOS_EMPRESAS_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C1ED25E-137A-5315-E458-BFEC8E2C0A03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C9F58AA-1C2D-919D-DB6B-BB22C8FB86C6" name="CATALOGOS_EMPRESAS_FK1">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AC41D6D-2791-52AA-F190-E85457855158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD7AB102-9239-C27A-37C5-DFCC2A205BEA" name="CATALOGOS_EMPRESAS_FK2">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1746AC4-0653-FEC3-9706-AEE25649EAEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="452F02D1-FE1A-4514-095F-1230905923F4" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="EMPRESAS">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>EMPRESAS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPRESA" id="707490B9-6371-73DC-7431-799AC06D8215">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>EMPRESAS</sourceObjSchema>
+<sourceObjName>ID_EMPRESA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_EMPRESA" id="49C5FEEB-C958-5F8E-DB06-EB50E9A9EB2A">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>EMPRESAS</sourceObjSchema>
+<sourceObjName>NOMBRE_EMPRESA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD_ID_CIUDAD" id="551D4A9E-D0B2-4881-B028-660DD815BBBA">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>EMPRESAS</sourceObjSchema>
+<sourceObjName>CIUDAD_ID_CIUDAD</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35B553A7-D440-AE70-1BB8-080B6C7A4E7E" referredColumn="1694625A-8F50-A15B-7845-AFC693861317"/>
+</associations>
+</Column>
+<Column name="ESTADO_EMPRESA" id="1BF30C8D-16CD-DFFA-DF68-EFF0EC7E0CD5">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>EMPRESAS</sourceObjSchema>
+<sourceObjName>ESTADO_EMPRESA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0233174A-A4CD-D84B-86D9-AFD0942A3F4D" name="EMPRESAS_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>EMPRESAS_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707490B9-6371-73DC-7431-799AC06D8215"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AB19DAB-54F9-B793-4929-518482146584" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="EMPRESAS_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>EMPRESAS_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707490B9-6371-73DC-7431-799AC06D8215"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DCFD679-E43C-3BC6-1EAF-4771578FC889" name="EMPRESAS_CIUDAD">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="551D4A9E-D0B2-4881-B028-660DD815BBBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

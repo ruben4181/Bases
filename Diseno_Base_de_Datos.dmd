@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Diseno_Base_de_Datos" id="4033448B-F3A8-37A8-9F75-7E848B929A40" version="3.5">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:12:39 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4033448B-F3A8-37A8-9F75-7E848B929A40</designId>
+</OSDM_Design>

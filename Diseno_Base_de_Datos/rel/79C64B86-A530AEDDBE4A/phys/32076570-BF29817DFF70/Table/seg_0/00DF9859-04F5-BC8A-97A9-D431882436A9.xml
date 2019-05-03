@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAIS" directorySegmentName="seg_0" id="00DF9859-04F5-BC8A-97A9-D431882436A9">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EDE2F166-9C92-1AE8-0B24-5FFC5CF4A96E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE_PAIS" id="8FC4558D-2756-0FE0-F711-E8FF5B149E99">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PAIS" id="D51C7676-C44D-7964-4646-F5DD022AF73D">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PAIS_PK" id="30CB8C30-EE33-8C63-80E6-92711282A8C3">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAIS_PK" id="85B1BA6F-C05E-F44F-5B00-8092908A8D6B">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<existingIndex>30CB8C30-EE33-8C63-80E6-92711282A8C3</existingIndex>
+<indexSegment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

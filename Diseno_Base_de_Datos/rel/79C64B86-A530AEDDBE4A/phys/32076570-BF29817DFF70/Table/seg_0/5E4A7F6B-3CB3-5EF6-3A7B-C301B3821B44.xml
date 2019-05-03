@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONTRATOS" directorySegmentName="seg_0" id="5E4A7F6B-3CB3-5EF6-3A7B-C301B3821B44">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EDE2F166-9C92-1AE8-0B24-5FFC5CF4A96E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUMERO" id="19511F16-3CE2-C9CB-2D7D-FEB6BB1322FA">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PLAN" id="46FFAE83-B8C3-F792-FEAD-51438670D241">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CONTRATO" id="6F37FB9F-08E2-2016-179E-2863E00D25D8">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO_CONTRATO" id="77F409D4-E7A1-6449-9BD7-CE42EB045A72">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPRESAS_ID_EMPRESA" id="BA48EEDB-2F94-7490-2DDB-0BE4507FD00A">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CLIENTE" id="F04A10EF-3246-0309-A12F-7DFED3F51E47">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CORTE" id="F143F0C1-D718-9254-328F-70BB61F800E0">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CONTRATOS_PK" id="5E5C12A9-5008-9551-F10D-68F0D7826B24">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONTRATOS_FK2" id="6580D5C4-3C5A-7F15-9C7D-5E19643EDE58">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONTRATOS_EMPRESAS" id="93035703-3FFB-F509-B8C2-F62BAF4CB3F6">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONTRATOS_FK1" id="CE4BABEA-6EB2-1D9A-B94F-DFC3C3E32A82">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONTRATOS_PK" id="2953CF84-4EAE-3354-B40B-D409010B75EA">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<existingIndex>5E5C12A9-5008-9551-F10D-68F0D7826B24</existingIndex>
+<indexSegment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

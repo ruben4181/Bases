@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DD394F5-D6DF-9022-FED8-CB72662FBA40" containerWithKeyObject="F89F991B-4421-3811-FEEC-831ED2012E5E" localFKIndex="DA95EC4F-69FD-AD10-6B1D-FA024008C27F" name="CLIENTES_RANGO_SALARIOS">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>CLIENTES_RANGO_SALARIOS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<referredTableLongName>OTOYA_LAVERDE_VARGAS.RANGO_SALARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8B812AC7-943E-FE5C-FA78-CDD44F0F3E60</referredTableID>
+<keyObject>8C4E9FBB-65A9-F4F0-0508-6E707A8E534C</keyObject>
+<referredKeyID>8C4E9FBB-65A9-F4F0-0508-6E707A8E534C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RANGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

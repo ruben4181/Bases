@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CATALOGOS" directorySegmentName="seg_0" id="21EB702C-96DF-14FE-8FC9-DCFD3A7F25E0">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EDE2F166-9C92-1AE8-0B24-5FFC5CF4A96E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE_CATALOGO" id="A3EDA68B-3532-D5B3-A4BA-D82048DDDFD4">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CATALOGO" id="D6670686-2AF7-60AB-EC7D-7F8519B0A381">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CATALOGOS_PK" id="9A6CEC52-E896-DC23-BA7B-C4CA28A196E3">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<schemaObject>CCE98944-615B-A42E-BE5F-03714F3DE6D8</schemaObject>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CATALOGOS_PK" id="F6F42D2D-BA74-30CC-7431-C12CBEE805DC">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<segment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</segment>
+<tableSpace>88BBC5EF-6A86-6A2C-EC5A-D9073351C36A</tableSpace>
+<existingIndex>9A6CEC52-E896-DC23-BA7B-C4CA28A196E3</existingIndex>
+<indexSegment>6585FAB3-5B67-9F5E-E889-6FACDA54557E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

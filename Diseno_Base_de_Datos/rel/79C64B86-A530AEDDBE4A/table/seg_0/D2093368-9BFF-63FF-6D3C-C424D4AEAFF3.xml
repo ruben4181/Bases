@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2093368-9BFF-63FF-6D3C-C424D4AEAFF3" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="TIPOS_PLAN">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>TIPOS_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_PLAN" id="0873ADEF-823B-32EB-43F0-E66D5D99F9F3">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>TIPOS_PLAN</sourceObjSchema>
+<sourceObjName>ID_TIPO_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO" id="4A89BDF5-4F4C-9713-4646-CA2B6821ECEB">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>TIPOS_PLAN</sourceObjSchema>
+<sourceObjName>CODIGO_TIPO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO" id="6D34A085-563C-8E2B-1701-0542730091AA">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>TIPOS_PLAN</sourceObjSchema>
+<sourceObjName>NOMBRE_TIPO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARIFAS_ID_TARIFA" id="D6D71C80-7D59-A422-FED0-3F42B6621731">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>TIPOS_PLAN</sourceObjSchema>
+<sourceObjName>TARIFAS_ID_TARIFA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4962F0E4-BB7D-B261-D8EA-7EE85FC4C352" referredColumn="181BE882-C386-2FA0-4896-46C242E7D03E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="098D64A4-2397-2D3B-06EB-6DBD8F7B1CFD" name="TIPOS_PLAN_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>TIPOS_PLAN_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0873ADEF-823B-32EB-43F0-E66D5D99F9F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EEF9118-C801-5FB0-FC5C-E98890618ADE" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="TIPOS_PLAN_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>TIPOS_PLAN_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0873ADEF-823B-32EB-43F0-E66D5D99F9F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B40B820-5CDC-9CC1-E289-6543CB147415" name="TIPOS_PLAN_TARIFAS">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6D71C80-7D59-A422-FED0-3F42B6621731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6FD8D77D-593F-D313-79A3-D99F4008EFED" containerWithKeyObject="5E4A7F6B-3CB3-5EF6-3A7B-C301B3821B44" localFKIndex="6580D5C4-3C5A-7F15-9C7D-5E19643EDE58" name="CONTRATOS_FK2">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>CONTRATOS_FK2</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<referredTableLongName>OTOYA_LAVERDE_VARGAS.PLANES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB44C589-320D-91BD-C0ED-3DB519B07288</referredTableID>
+<keyObject>C5397B8A-1D7C-1251-31ED-23EBB0A6AD07</keyObject>
+<referredKeyID>C5397B8A-1D7C-1251-31ED-23EBB0A6AD07</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_PLAN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

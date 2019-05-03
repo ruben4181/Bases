@@ -1,8 +1,12 @@
 Documentacion
 
+Por Hacer:
+	Plan sin control y con control. "sin control" es cuando se puede exeder el saldo
+	Facturacion
+
 
 Nota:	xx -> Terninado
-		yy -> Sin terminar
+	yy -> Sin terminar
 
 
 
@@ -73,6 +77,9 @@ FUNCIONES:
 		EXISTS_TIPOS_PLAN yy
 		EXISTS_TARIFAS(
 VALOR_MINUTO tarifas.VALOR_MINUTO%type, VALOR_MENSAJE tarifas.VALOR_MENSAJE%type, VALOR_MB tarifas.VALOR_MB%type, VALOR_MINUTO_EXTRA tarifas.VALOR_MINUTO_EXTRA%type, VALOR_MENSAJE_EXTRA tarifas.VALOR_MENSAJE_EXTRA%type, VALOR_MB_EXTRA tarifas.VALOR_MB_EXTRA%type) xx O
+
+	FUNCIONES PUBLICAS:
+		
 
 
 

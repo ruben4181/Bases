@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E3AD4E5-10E1-8F75-2E65-18E42785F7BA" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="DETALLE_FACTURA">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>DETALLE_FACTURA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLE_FACTURA" id="EF72976D-570C-6722-EB10-5C6DF270D100">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>ID_DETALLE_FACTURA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMEROS_ID_NUMERO" id="EE1BA991-C298-582D-D8F5-6B3A087FEBD8">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>NUMEROS_ID_NUMERO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F904167-FB1C-5191-6395-86335DABEB7A" referredColumn="652ADA05-F1BB-EAB7-8730-11BC164BB692"/>
+</associations>
+</Column>
+<Column name="TOTAL" id="7C6B3CBD-AB24-CC4F-657B-17E4A845A766">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>TOTAL</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A0DE668-B1E2-399A-4222-995D39FF3B9A" name="DETALLE_FACTURA_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>DETALLE_FACTURA_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF72976D-570C-6722-EB10-5C6DF270D100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7983FBB2-B628-0E0E-0535-08A480941049" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="DETALLE_FACTURA_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>DETALLE_FACTURA_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF72976D-570C-6722-EB10-5C6DF270D100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DA1738F-DABE-6EB5-A891-AB904C48F945" name="DETALLE_FACTURA_NUMEROS">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE1BA991-C298-582D-D8F5-6B3A087FEBD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

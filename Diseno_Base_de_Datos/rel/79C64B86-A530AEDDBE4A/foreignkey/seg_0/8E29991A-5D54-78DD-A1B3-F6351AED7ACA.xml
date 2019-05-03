@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E29991A-5D54-78DD-A1B3-F6351AED7ACA" containerWithKeyObject="8E871553-0239-BCD7-046D-35A6E0577CED" localFKIndex="03D60FDA-1A5F-9C1A-5240-F5F22A68DB5C" name="ESTADOS_FK1">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>ESTADOS_FK1</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<referredTableLongName>OTOYA_LAVERDE_VARGAS.PAIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00DF9859-04F5-BC8A-97A9-D431882436A9</referredTableID>
+<keyObject>85B1BA6F-C05E-F44F-5B00-8092908A8D6B</keyObject>
+<referredKeyID>85B1BA6F-C05E-F44F-5B00-8092908A8D6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PAIS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

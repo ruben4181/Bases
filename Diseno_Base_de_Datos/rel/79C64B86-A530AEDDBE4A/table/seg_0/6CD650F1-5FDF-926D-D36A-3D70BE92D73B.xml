@@ -1,0 +1,240 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CD650F1-5FDF-926D-D36A-3D70BE92D73B" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="FACTURA">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>FACTURA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FACTURA" id="DABD92FC-B2CF-E972-8499-E7ABE81D8A9E">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>ID_FACTURA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="47ED1A02-D3CF-D450-3153-9B5F4AF607B4">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTOS_CONSUMIDOS" id="BD3BD94F-F6B7-B12B-A42B-FA56EA29216D">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>MINUTOS_CONSUMIDOS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPUESTOS" id="E610D8DC-2C6A-9A2C-4340-37F1BEEA5E2C">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>IMPUESTOS</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MB" id="B5A5A0A5-5744-AE66-84FE-EC5C4BD66E9B">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>MB</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJES" id="B1C1D353-9958-91C5-E74A-340176448A01">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>MENSAJES</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="8F44E2EF-BB8B-FC6A-CA20-CD3641ADC33F">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A007E3D5-D1DE-18EE-7AAC-66CFC86008C5" referredColumn="391749B3-7C31-3E33-3B40-8C7644F243AC"/>
+</associations>
+</Column>
+<Column name="MINUTOS_PLAN" id="BF8A56B4-21DB-2E4D-2D9D-3E0D99210D52">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>MINUTOS_PLAN</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTOS_EXTRA" id="42F2CF22-0AC1-8EBE-2AE9-7DA139083803">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>MINUTOS_EXTRA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXCEDENTE" id="581E2266-DB09-9437-3F68-E0B54F195791">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>EXCEDENTE</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FACTURACION" id="81D7E9A0-2D87-558D-B46D-62D428E4A58B">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>FECHA_FACTURACION</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_LINEA" id="1D6E7F4E-CD3A-8C05-EE95-EE851D055F5C">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>NUMERO_LINEA</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="8204D5AB-002C-17C6-7D9C-987173A8AF95">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>FACTURA</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="142283E8-330C-06C8-E79C-8CA67E960313" name="FACTURA_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>FACTURA_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DABD92FC-B2CF-E972-8499-E7ABE81D8A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1C10245-6934-1012-A1A0-632555D959F9" schemaObject="CCE98944-615B-A42E-BE5F-03714F3DE6D8" name="FACTURA_PK">
+<sourceConnName>Proyecto bases 2</sourceConnName>
+<sourceObjSchema>OTOYA_LAVERDE_VARGAS</sourceObjSchema>
+<sourceObjName>FACTURA_PK</sourceObjName>
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DABD92FC-B2CF-E972-8499-E7ABE81D8A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94C9D95A-1B2F-C055-C151-7CE3787F399E" name="FACTURA_CLIENTES">
+<createdBy>Guaberx</createdBy>
+<createdTime>2019-05-03 00:13:17 UTC</createdTime>
+<ownerDesignName>Diseno_Base_de_Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F44E2EF-BB8B-FC6A-CA20-CD3641ADC33F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
